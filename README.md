@@ -10,10 +10,10 @@ API specification with a long data type field
 Run the following command from your project directory to install the package from npm:
 
 ```bash
-npm install qa-testing-one-of-sdk@1.1.2
+npm install qa-testing-one-of-sdk@1.2.1
 ```
 
-For additional package details, see the [Npm page for the qa-testing-one-of-sdk@1.1.2 npm](https://www.npmjs.com/package/qa-testing-one-of-sdk/v/1.1.2).
+For additional package details, see the [Npm page for the qa-testing-one-of-sdk@1.2.1 npm](https://www.npmjs.com/package/qa-testing-one-of-sdk/v/1.2.1).
 
 ## Test the SDK
 
@@ -33,14 +33,14 @@ npm run test:coverage
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/tahaali2000/qa-testing-one-of-js-sdk/tree/1.1.2/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/tahaali2000/qa-testing-one-of-js-sdk/tree/1.2.1/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
 | timeout | `number` | Timeout for API calls.<br>*Default*: `0` |
-| httpClientOptions | [`Partial<HttpClientOptions>`](https://www.github.com/tahaali2000/qa-testing-one-of-js-sdk/tree/1.1.2/doc/http-client-options.md) | Stable configurable http client options. |
+| httpClientOptions | [`Partial<HttpClientOptions>`](https://www.github.com/tahaali2000/qa-testing-one-of-js-sdk/tree/1.2.1/doc/http-client-options.md) | Stable configurable http client options. |
 | unstableHttpClientOptions | `any` | Unstable configurable http client options. |
 
 The API client can be initialized as follows:
@@ -53,21 +53,21 @@ const client = new Client({
 
 ## List of APIs
 
-* [API](https://www.github.com/tahaali2000/qa-testing-one-of-js-sdk/tree/1.1.2/doc/controllers/api.md)
+* [API](https://www.github.com/tahaali2000/qa-testing-one-of-js-sdk/tree/1.2.1/doc/controllers/api.md)
 
 ## SDK Infrastructure
 
 ### Configuration
 
-* [HttpClientOptions](https://www.github.com/tahaali2000/qa-testing-one-of-js-sdk/tree/1.1.2/doc/http-client-options.md)
-* [RetryConfiguration](https://www.github.com/tahaali2000/qa-testing-one-of-js-sdk/tree/1.1.2/doc/retry-configuration.md)
+* [HttpClientOptions](https://www.github.com/tahaali2000/qa-testing-one-of-js-sdk/tree/1.2.1/doc/http-client-options.md)
+* [RetryConfiguration](https://www.github.com/tahaali2000/qa-testing-one-of-js-sdk/tree/1.2.1/doc/retry-configuration.md)
 
 ### HTTP
 
-* [HttpRequest](https://www.github.com/tahaali2000/qa-testing-one-of-js-sdk/tree/1.1.2/doc/http-request.md)
+* [HttpRequest](https://www.github.com/tahaali2000/qa-testing-one-of-js-sdk/tree/1.2.1/doc/http-request.md)
 
 ### Utilities
 
-* [ApiResponse](https://www.github.com/tahaali2000/qa-testing-one-of-js-sdk/tree/1.1.2/doc/api-response.md)
-* [ApiError](https://www.github.com/tahaali2000/qa-testing-one-of-js-sdk/tree/1.1.2/doc/api-error.md)
+* [ApiResponse](https://www.github.com/tahaali2000/qa-testing-one-of-js-sdk/tree/1.2.1/doc/api-response.md)
+* [ApiError](https://www.github.com/tahaali2000/qa-testing-one-of-js-sdk/tree/1.2.1/doc/api-error.md)
 
